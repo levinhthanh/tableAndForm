@@ -1,0 +1,36 @@
+
+
+.age{
+    width: 700px;
+    height: 20px;
+    
+}
+.price{
+    width: 700px;
+    height: 20px;
+}
+.gioitinh{
+    width: 1500px;
+    height: 40px;
+}
+.nhapgt{
+    margin-left: 60px;
+}
+#money{
+    width: 100px;
+    height: 20px;
+    margin-left: 10px;
+}
+#cent{
+    width: 100px;
+    height: 20px;
+    margin-left: 55px;
+}
+table{
+    width: 750px;
+    height: 200px;
+}
+.size{
+    width: 100px;
+    text-align: center;
+}

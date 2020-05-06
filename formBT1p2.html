@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Bài tập Form 1.2</title>
+    <link rel="stylesheet" href="insert.css"/>   
+</head>
+<body>
+
+    <table class="khung">
+        <tr>
+            <td class="title" colspan="10"><strong>ĐĂNG KÝ HỌC VIÊN</strong></td>
+             
+        </tr>
+        <tr>
+            <td colspan="2" class="test">Họ và tên</td>
+            <td colspan="8" class="to">
+                <form>
+                    <input type="text" name="hoten" />
+                </form>
+            </td>        
+        </tr>
+        <tr>
+            <td colspan="2">Ngày sinh</td>
+            <td colspan="8">
+                <form>
+                    <input type="text" name="ngaysinh"/>
+                </form>
+            </td>        
+        </tr>
+        <tr>
+            <td colspan="2">Giới tính</td>
+            <td colspan="8">
+                <form>
+                    <input type="radio" name="gender"/> Nam
+                    <input type="radio" name="gender"/> Nữ
+                </form>
+            </td>         
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2">Địa chỉ</td>
+            <td colspan="8" rowspan="2">
+                <textarea rows="4" cols="25">
+                </textarea>
+            </td>
+                 
+        </tr>
+        <tr>
+            
+           
+                 
+        </tr>
+      
+        <tr>
+            <td colspan="2">Lớp</td>
+            <td colspan="8">
+                <select>
+                    <option value="lop1">Lớp 1</option>
+                    <option value="lop2">Lớp 2</option>
+                    <option value="lop3">Lớp 3</option>
+                    <option value="lop4">Lớp 4</option>
+                    <option value="lop5">Lớp 5</option>
+                </select>
+            </td>     
+        </tr>
+        <tr>
+            <td colspan="2">Email</td>
+            <td colspan="8">
+                <form>
+                    <input type="text" name="email" />
+                </form>
+            </td>      
+        </tr>
+        <tr>
+            <td colspan="2">Điện thoại</td>
+            <td colspan="8">
+                <form>
+                    <input type="text" name="dienthoai" />
+                </form>
+            </td>        
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="2">
+                <form>
+                    <input type="submit" value="Đăng ký"/>
+                </form>
+            </td>
+            <td colspan="6">
+                <form>
+                    <input type="reset" value="Nhập lại"/>
+                </form>
+            </td>
+         
+        </tr>
+
+    </table>
+</body>
+</html>

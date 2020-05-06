@@ -1,0 +1,75 @@
+
+.borderngoai{
+    border: solid cyan;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-right-width: 10px;
+    border-left-width: 10px;
+    height: 300px ;
+    width: 500px;
+}
+h1{ 
+    background-color: orangered ;
+    height: 40px;
+    width: 480px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+#nhapten{   
+    height: 40px;
+    width: 300px;
+    margin-left: 40px;
+    color: navy;
+}
+#nhapmail{   
+    height: 40px;
+    width: 300px;
+    margin-left: 64px;
+    color: navy;
+}
+#sothich{   
+    margin-left: 30px;
+    color: navy;
+}
+.hang1{
+    height: 30px;
+    width: 500px;
+    margin-left: 20px;
+}
+#web{
+    height: 30px;
+    width: 100px;
+    margin-left: 106.5px;
+}
+#nhac{
+    height: 30px;
+    width: 100px;
+    margin-left: 5px;
+}
+#sach{
+    height: 30px;
+    width: 100px;
+    margin-left: 12px;
+}
+#game{
+    height: 30px;
+    width: 100px;
+    margin-left: 0px;
+}
+#anh{
+    height: 30px;
+    width: 100px;
+    margin-left: 0px;
+}
+#dlich{
+    height: 200px;
+    width: 100px;
+    margin-left: 106.5px;
+}
+#submit{
+    height: 200px;
+    width: 1000px;
+    margin-left: 86.5px;
+}
+}

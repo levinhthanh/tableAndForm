@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Research Survey</title>
+    <link rel="stylesheet" href="cssformbt2.css"/>
+</head>
+<body>
+    <label><strong>Market Research Survey</strong></label><br/><br/>
+    <label>Please take a few moments to complete this satisfaction survey.</label><br/><br/>
+    <hr/>
+    <label><strong>What is your age range?</strong> </label><br/><br/>
+    <select class="age">
+        <option value="18-24">18-24</option>
+        <option value="25-34">25-34</option>
+        <option value="35-50">35-50</option>
+        <option value="50+">50+</option>
+    </select><br/><br/>
+    <label><strong>What is your yearly income range?</strong></label><br/><br/>
+    <select class="price">
+        <option value="$0-$25,000">$0-$25,000</option>
+        <option value="$25,001-$50,000">$25,001-$50,000</option>
+        <option value="$50,001-$100,000">$50,001-$100,000</option>
+        <option value="$100,000+">$100,000+</option>
+    </select><br/><br/>
+    <label><strong>Gender Identity</strong></label><br/>
+    <form class="gioitinh">
+        <input id="male" type="radio" name="gender" value="Male"/> <label for="male" >Male</label> <br/>
+        <input id="female" type="radio" name="gender" value="Female"/><label for="female">Female</label> <br/>
+        <input id="nonbinary" type="radio" name="gender" value="Nonbinary"/><label for="nonbinary">Nonbinary</label> <br/>
+        <input id="other" type="radio" name="gender" value=""/><label for="other">Other</label> <br/>
+    </form><br/><br/>
+    <form class="nhapgt">
+        <input type="text" name="gender" />
+    </form><br/>
+    <label><strong>Which of the following products have your purchased in the last 2 months. Please check all that apply.</strong></label><br/><br/>
+    <form>
+        <input type="checkbox" name="product1"/>Product 1 <br/>
+        <input type="checkbox" name="product2"/>Product 2 <br/>
+        <input type="checkbox" name="product3"/>Product 3 <br/>
+    </form><br/>
+    <label><strong>How often would you use our new product?</strong></label><br/><br/>
+    <form>
+        <input type="radio" name="often"/>Daily <br/>
+        <input type="radio" name="often"/>Weekly <br/>
+        <input type="radio" name="often"/>Monthly <br/>
+    </form><br/>
+    <label><strong>What would you pay for the new product?</strong></label><br/><br/>
+    <form>
+        $<input type="text" name="dollars" size="10"/>.<input type="text" name="cents" size="3"/>  
+    </form>
+    <label id="money">Dollars</label> 
+    <label id="cent">Cents</label><br/><br/>
+    <label><strong>What features would you like to see in the new product.</strong></label><br/><br/>
+    <textarea rows="7" cols="104"></textarea><br/><br/>
+    <label>Please rate your level up aggrement with following statements.</label><br/><br/>
+    <table border="black">
+        <tr>
+            <th></th>
+            <th class="size">Strongly Disagree</th>
+            <th class="size">Disagree</th>
+            <th class="size">Agree</th>
+            <th class="size">Stronglyagree</th> 
+        </tr>
+        <tr>
+            <td>Our products are priced fairly</td>
+            <td class="size"><input type="radio" name="n1"/><br/>1</td>
+            <td class="size"><input type="radio" name="n2"/><br/>2</td>
+            <td class="size"><input type="radio" name="n3"/><br/>3</td>
+            <td class="size"><input type="radio" name="n4"/><br/>4</td>
+        </tr>
+        <tr>
+            <td>Our product are high quality.</td>
+            <td class="size"><input type="radio" name="n1"/><br/>1</td>
+            <td class="size"><input type="radio" name="n2"/><br/>2</td>
+            <td class="size"><input type="radio" name="n3"/><br/>3</td>
+            <td class="size"><input type="radio" name="n4"/><br/>4</td>
+           
+        </tr>
+        <tr>
+            <td>You would recommend out product to friends or coworker</td>
+            <td class="size"><input type="radio" name="n1"/><br/>1</td>
+            <td class="size"><input type="radio" name="n2"/><br/>2</td>
+            <td class="size"><input type="radio" name="n3"/><br/>3</td>
+            <td class="size"><input type="radio" name="n4"/><br/>4</td>
+        </tr>
+    </table><br/>
+    <form>
+        <input type="submit" value="Submit"/>
+    </form>
+</body>
+</html>
