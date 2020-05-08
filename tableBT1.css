@@ -1,0 +1,12 @@
+h2{
+    margin-left: 150px;
+}
+table{
+    border-color: gray;
+    width: 600px;
+    height: 100px;
+    border-collapse: collapse;
+}
+.vang{
+    background-color: orange;
+}

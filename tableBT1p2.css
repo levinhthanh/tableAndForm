@@ -1,0 +1,34 @@
+h2{
+    margin-left: 400px;
+    color: royalblue;
+}
+table{
+    margin-left: 100px;
+    border: 1px solid ;
+    border-color: slategrey;
+    width: 900px;
+    height:100px;
+    text-align: center;
+}
+#cls{
+    margin: 200px;
+}
+#tea{
+    margin: 200px;
+}
+#rom{
+    margin: 200px;
+}
+#time{
+    margin: 45px;
+}
+.vang{
+    background-color: yellow;
+    width: 150px;
+}
+#rong{
+    width:150px;
+}
+.cam{
+    background-color: orangered;
+}

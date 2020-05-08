@@ -1,0 +1,47 @@
+H2{
+    color: blue;
+    margin-left: 500px;
+}
+.bang1{
+    background-color: cornflowerblue;
+    width: 700px;
+    height: 50px;
+    margin-left: 300px;
+    text-align: center;
+}
+.bang2{
+    width: 700px;
+    height: 50px;
+    margin-left: 300px;
+    text-align: center;
+}
+.bang3{
+    width: 700px;
+    height: 300px;
+    margin-left: 300px;
+    border-color: darkslategray;
+    text-align: center;
+}
+.cam{
+    background-color: orange;
+}
+.do{
+    background-color: red;
+}
+.xanh{
+    background-color: blue;
+}
+#leg{
+    width: 100px;
+}
+h3{
+    width: 20px;
+    height: 5px;
+}
+h3{
+    width: 10px;
+    height: 3px;
+}
+span{
+    text-align: right;
+}

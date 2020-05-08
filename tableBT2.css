@@ -1,0 +1,12 @@
+table{
+    width: 950px;
+    height: 950px;
+    border-color: slategrey;
+    text-align: center;
+}
+.vang{
+    background-color: yellow;
+}
+.den{
+    background-color: black;
+}
